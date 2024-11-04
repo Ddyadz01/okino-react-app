@@ -1,0 +1,13 @@
+.home {
+  &__top {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 20px;
+    z-index: 10;
+    &_left {
+      display: flex;
+      align-items: center;
+    }
+  }
+}

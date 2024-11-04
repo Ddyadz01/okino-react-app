@@ -1,0 +1,15 @@
+@import '_reset.scss';
+@import '_global.scss';
+
+main {
+  display: grid;
+  max-width: 1440px;
+  margin: 0 auto;
+  height: 100vh;
+  grid-template-columns: 20% 75%;
+  justify-content: space-between;
+}
+
+.link__active {
+  color: var(--color-primary);
+}

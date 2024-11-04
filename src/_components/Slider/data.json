@@ -1,0 +1,25 @@
+{
+  "slides": [
+    {
+      "id": 1,
+      "imageUrl": "/1.webp",
+      "ganres": ["Drama", "Fantastic"],
+      "title": "Metal Slug: Awakening",
+      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt eaque, quaerat dignissimos similique itaque, excepturi, vel velit id aliquam voluptatem saepe expedita dolorem dolorum eveniet culpa architecto minima sunt nulla."
+    },
+    {
+      "id": 2,
+      "imageUrl": "/2.webp",
+      "ganres": ["Drama", "Fantastic"],
+      "title": "Metal Slug: Awakening",
+      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt eaque, quaerat dignissimos similique itaque, excepturi, vel velit id aliquam voluptatem saepe expedita dolorem dolorum eveniet culpa architecto minima sunt nulla."
+    },
+    {
+      "id": 3,
+      "imageUrl": "/1.jpg",
+      "ganres": ["Drama", "Fantastic", "Mult"],
+      "title": "Mavka",
+      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt eaque, quaerat dignissimos similique itaque, excepturi, vel velit id aliquam voluptatem saepe expedita dolorem dolorum eveniet culpa architecto minima sunt nulla."
+    }
+  ]
+}

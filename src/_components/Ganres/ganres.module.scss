@@ -1,0 +1,37 @@
+.ganres {
+  cursor: pointer;
+  position: relative;
+  button {
+    display: flex;
+    align-items: center;
+    text-transform: capitalize;
+    min-width: 120px;
+
+    svg {
+      width: 18px;
+      margin-left: 3px;
+    }
+  }
+  &__list {
+    position: absolute;
+    top: 100%;
+    border-radius: 8px;
+    border: 1px solid var(--color-borders);
+    width: 100%;
+    background: rgb(20 20 20 / 38%);
+    z-index: 10;
+    margin-top: 10px;
+    padding: 10px 0 0 0;
+    left: 0;
+    backdrop-filter: blur(15px);
+
+    ul {
+      li {
+        list-style: none;
+        padding: 10px;
+        text-transform: capitalize;
+        margin: 5px 0;
+      }
+    }
+  }
+}
