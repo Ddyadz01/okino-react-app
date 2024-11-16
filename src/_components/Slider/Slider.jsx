@@ -1,6 +1,7 @@
 import { useSlider } from '../../hooks/useSlider';
 
 import SliderContent from './SliderContent';
+import SliderCount from './SliderCount';
 import SliderInformation from './SliderInformation';
 import SliderNav from './SliderNav';
 import SliderTimer from './SliderTimer';
@@ -23,6 +24,7 @@ const Slider = () => {
         styles={styles}
       />
       <SliderTimer styles={styles} timer={timer} />
+      <SliderCount styles={styles} slides={slides} currentSlide={currentSlide} />
     </div>
   );
 };

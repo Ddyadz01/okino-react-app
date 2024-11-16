@@ -112,16 +112,28 @@
   }
   &__timer {
     position: absolute;
-    width: 50px;
-    height: 50px;
+    width: 40px;
+    height: 40px;
     border-radius: 50%;
-    border: 1px solid var(--color-primary);
+    border: 2px solid var(--color-primary);
     display: flex;
     align-items: center;
     justify-content: center;
     top: 30px;
     right: 40px;
     color: var(--color-primary);
-    font-size: 20px;
+    font-size: 16px;
+  }
+  &__count {
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    bottom: 30px;
+    right: 40px;
+    color: var(--color-primary);
+    font-size: 16px;
   }
 }
